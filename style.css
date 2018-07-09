@@ -1,0 +1,54 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI: http://example.com/twenty-seventeen-child/
+Description: Twenty Seventeen Child Theme
+Author: WordPress
+Author URI: http://example.com
+Template: twentyseventeen
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: twenty-seventeen-child
+*/
+ 
+// Custom styles go here
+
+.dog_breed-template-default .single-featured-image-header {
+display:none;
+}
+
+.dog_breed-template-default #primary{
+	width:100%!important;
+}
+.flex-container {
+	display: flex;
+  justify-content: space-around;
+  
+}
+
+.flex-item img{
+  width:100%
+}
+.flex-item{
+ width: 30%;
+  padding: 10px;
+}
+
+
+
+@media screen and (max-width: 768px){
+.flex-container {
+	display: flex;
+		flex-direction:column;
+  
+}
+
+.flex-item img{
+  width:100%;
+}
+.flex-item{
+ width: 100%;
+}
+
+}
